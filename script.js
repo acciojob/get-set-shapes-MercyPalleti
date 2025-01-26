@@ -20,7 +20,7 @@ class Square extends Animal {
 		super(side,side);
 	}
 	getPerimeter(){
-		return 4*this.side;
+		return 4*this.width;
 	}
 }
 

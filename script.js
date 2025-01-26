@@ -11,7 +11,7 @@ class Rectangle {
 		return this.height;
 	}
 	getArea(){
-		return this.width*this.height;
+		return (this.width)*(this.height);
 	}
 }
 
@@ -20,7 +20,7 @@ class Square extends Animal {
 		super(side,side);
 	}
 	getPerimeter(){
-		return 4*this.width;
+		return 4*(this.width);
 	}
 }
 
